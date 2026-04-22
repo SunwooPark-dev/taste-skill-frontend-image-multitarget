@@ -8,6 +8,19 @@
 5. update result docs
 6. update the wiki if usage or structure changed
 
+## Branch strategy
+- `main` is the stable default branch
+- use `import/<name>` for new source imports
+- use `validate/<name>` for focused validation rounds
+- use `docs/<name>` for documentation-only refinement when helpful
+
+Recommended pattern:
+1. branch from `main`
+2. make the import / validation / docs change
+3. commit with lore-style context
+4. push branch
+5. optionally open an internal PR back to `main`
+
 ## Global requirement
 This repo follows the wiki lifecycle policy:
 - create wiki at start
