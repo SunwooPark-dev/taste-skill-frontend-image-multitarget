@@ -8,6 +8,7 @@ The repo preserves a high-value frontend image / taste skill and adapts it for:
 - Gemini terminal workflow
 
 ## Start here
+- [Handoff to Codex App](HANDOFF_TO_CODEX_APP.md)
 - [Quick Start](Quick-Start.md)
 - [Adapters](Adapters.md)
 - [Prompt Library](Prompt-Library.md)
