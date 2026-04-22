@@ -22,3 +22,13 @@ That page contains:
 
 ## Best first target
 Start with Codex App if you want the fastest feedback loop.
+
+## If you are handing this repo to Antigravity App
+Read:
+- `docs/wiki/HANDOFF_TO_ANTIGRAVITY_APP.md`
+
+That page contains:
+- access location
+- reading order
+- branch strategy
+- a ready-to-paste instruction block

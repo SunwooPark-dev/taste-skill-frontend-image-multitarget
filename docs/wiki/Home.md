@@ -9,6 +9,7 @@ The repo preserves a high-value frontend image / taste skill and adapts it for:
 
 ## Start here
 - [Handoff to Codex App](HANDOFF_TO_CODEX_APP.md)
+- [Handoff to Antigravity App](HANDOFF_TO_ANTIGRAVITY_APP.md)
 - [Quick Start](Quick-Start.md)
 - [Adapters](Adapters.md)
 - [Prompt Library](Prompt-Library.md)
