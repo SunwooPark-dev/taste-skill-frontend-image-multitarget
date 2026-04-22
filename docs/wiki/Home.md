@@ -8,8 +8,10 @@ The repo preserves a high-value frontend image / taste skill and adapts it for:
 - Gemini terminal workflow
 
 ## Start here
+- [Build Registry](Build-Registry.md)
 - [Handoff to Codex App](HANDOFF_TO_CODEX_APP.md)
 - [Handoff to Antigravity App](HANDOFF_TO_ANTIGRAVITY_APP.md)
+- [Handoff to Gemini Terminal](HANDOFF_TO_GEMINI_TERMINAL.md)
 - [Quick Start](Quick-Start.md)
 - [Adapters](Adapters.md)
 - [Prompt Library](Prompt-Library.md)

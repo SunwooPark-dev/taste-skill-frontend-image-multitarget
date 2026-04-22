@@ -32,3 +32,13 @@ That page contains:
 - reading order
 - branch strategy
 - a ready-to-paste instruction block
+
+## If you are handing this repo to Gemini terminal workflow
+Read:
+- `docs/wiki/HANDOFF_TO_GEMINI_TERMINAL.md`
+
+That page contains:
+- access location
+- reading order
+- branch strategy
+- a ready-to-paste instruction block
