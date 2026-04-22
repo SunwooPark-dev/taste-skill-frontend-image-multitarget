@@ -19,6 +19,7 @@ The repo preserves a high-value frontend image / taste skill and adapts it for:
 - [Import Decision](Import-Decision.md)
 - [Contribution and Update Flow](Contribution-and-Update-Flow.md)
 - [FAQ](FAQ.md)
+- [Roadmap](Roadmap.md)
 
 ## What this repo is
 A reusable adapter + validation ledger repo.

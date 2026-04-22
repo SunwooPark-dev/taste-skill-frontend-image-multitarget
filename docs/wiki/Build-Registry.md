@@ -12,3 +12,12 @@
 - Verification:
   - manual wiki page inspection
   - wiki-audit with all consumers
+
+## Add adapter repo roadmap
+- Recorded at: 2026-04-22T06:57:49.431Z
+- Summary: Documented next validation and import priorities for the adapter repository.
+- Files:
+  - docs/wiki/Roadmap.md
+  - docs/wiki/Home.md
+- Verification:
+  - manual roadmap review
