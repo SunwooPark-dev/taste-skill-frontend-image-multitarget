@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Before Hero</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0f172a;
+        color: #ffffff;
+      }
+
+      .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 32px 20px;
+        text-align: center;
+        background: radial-gradient(circle at top, #334155, #0f172a 60%);
+      }
+
+      .hero h1 {
+        margin: 0 0 16px;
+        font-size: 56px;
+        line-height: 1.1;
+      }
+
+      .hero p {
+        max-width: 640px;
+        margin: 0 0 24px;
+        color: #cbd5e1;
+        font-size: 18px;
+      }
+
+      .hero .actions {
+        display: flex;
+        gap: 12px;
+      }
+
+      .hero a {
+        padding: 14px 20px;
+        border-radius: 999px;
+        background: #7c3aed;
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .hero a.secondary {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <span>AI platform</span>
+      <h1>Build better products with AI</h1>
+      <p>
+        A simple platform for teams that want to move faster with modern AI
+        workflows.
+      </p>
+      <div class="actions">
+        <a href="#start">Get started</a>
+        <a class="secondary" href="#demo">Book a demo</a>
+      </div>
+    </section>
+  </body>
+  </html>

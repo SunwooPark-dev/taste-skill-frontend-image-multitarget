@@ -61,3 +61,8 @@ Run at least one real frontend task through this adapter and record whether the 
 - codeable
 - verification-first
 - non-generic
+
+## Live validation update
+- `docs/migration/CODEX_LIVE_VALIDATION_01.md` was added as a practical fixture-based pass.
+- Result: PASS
+- Scope: premium hero redesign with minimal change discipline

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>After Hero</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
+        background:
+          linear-gradient(180deg, #111827 0%, #0b1220 58%, #070b13 100%);
+        color: #f8fafc;
+      }
+
+      .hero {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+        gap: 48px;
+        align-items: center;
+        padding: 72px clamp(24px, 5vw, 72px);
+      }
+
+      .hero-copy {
+        max-width: 620px;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 14px;
+        border-radius: 999px;
+        background: rgba(148, 163, 184, 0.12);
+        color: #cbd5e1;
+        font-size: 13px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .hero h1 {
+        margin: 24px 0 18px;
+        max-width: 10ch;
+        font-size: clamp(56px, 8vw, 92px);
+        line-height: 0.94;
+        letter-spacing: -0.06em;
+      }
+
+      .hero p {
+        max-width: 36rem;
+        margin: 0 0 28px;
+        color: #94a3b8;
+        font-size: 18px;
+        line-height: 1.7;
+      }
+
+      .actions {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+
+      .actions a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 148px;
+        padding: 14px 22px;
+        border-radius: 999px;
+        text-decoration: none;
+        transition: transform 160ms ease, background-color 160ms ease;
+      }
+
+      .actions a.primary {
+        background: #f8fafc;
+        color: #0f172a;
+      }
+
+      .actions a.secondary {
+        border: 1px solid rgba(148, 163, 184, 0.22);
+        color: #e2e8f0;
+        background: rgba(15, 23, 42, 0.45);
+      }
+
+      .hero-visual {
+        position: relative;
+        min-height: 520px;
+        border-radius: 32px;
+        overflow: hidden;
+        background:
+          linear-gradient(145deg, rgba(71, 85, 105, 0.12), rgba(15, 23, 42, 0.74)),
+          url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80")
+            center/cover;
+        box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+      }
+
+      .hero-panel {
+        position: absolute;
+        right: 24px;
+        bottom: 24px;
+        max-width: 260px;
+        padding: 18px 18px 16px;
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        border-radius: 24px;
+        backdrop-filter: blur(14px);
+        background: rgba(8, 15, 27, 0.6);
+      }
+
+      .hero-panel strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 15px;
+      }
+
+      .hero-panel span {
+        display: block;
+        color: #cbd5e1;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 900px) {
+        .hero {
+          grid-template-columns: 1fr;
+          padding-top: 48px;
+        }
+
+        .hero h1 {
+          max-width: none;
+        }
+
+        .hero-visual {
+          min-height: 420px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Workflow Intelligence</span>
+        <h1>Ship product decisions with sharper signal.</h1>
+        <p>
+          A premium workspace for teams that want faster research, clearer
+          execution, and a frontend presence that feels deliberate instead of
+          auto-generated.
+        </p>
+        <div class="actions">
+          <a class="primary" href="#start">Start the pilot</a>
+          <a class="secondary" href="#demo">See the system</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-panel">
+          <strong>Decision snapshots</strong>
+          <span>
+            Track the strongest signals, surface next actions, and keep the team
+            aligned without cluttering the interface.
+          </span>
+        </div>
+      </div>
+    </section>
+  </body>
+  </html>
