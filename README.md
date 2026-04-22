@@ -7,3 +7,8 @@ This repository captures the reusable value of Leonxlnx/taste-skill's frontend i
 - Gemini terminal workflow
 
 It is an additive, first-pass import focused on one high-value source file.
+
+
+## Wiki
+See docs/wiki/Home.md for the canonical project wiki.
+
