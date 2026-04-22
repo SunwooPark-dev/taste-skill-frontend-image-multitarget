@@ -53,4 +53,4 @@ Uses a short terminal-first prompt focused on concise execution and verification
 4. Expand later only if real reuse proves valuable.
 
 ## Import strategy rationale
-	emplate-style reuse was chosen because the input pointed to a single high-value skill file rather than a whole repository that needed direct ownership mirroring.
+`template-style reuse` was chosen because the input pointed to a single high-value skill file rather than a whole repository that needed direct ownership mirroring.

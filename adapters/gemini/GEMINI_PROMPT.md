@@ -23,13 +23,19 @@ Preserve the source skill's strongest value:
 4. Make only the minimal structural/design change needed.
 5. Verify with concrete checks.
 
-## Design constraints
-- avoid generic AI-looking heroes
-- avoid cloned section blocks
-- keep spacing generous and controlled
-- keep hierarchy obvious
-- use imagery intentionally
-- optimize for codeable output
+## What to optimize for
+- codeable layout decisions
+- strong hierarchy
+- generous but controlled spacing
+- image use with structural purpose
+- clean hero composition
+
+## Avoid
+- generic AI-looking heroes
+- cloned section blocks
+- decorative image spam
+- dense, overfilled compositions
+- long abstract explanations
 
 ## Verification format
 After changes, report:
@@ -37,3 +43,7 @@ After changes, report:
 - what files changed
 - what verification was run
 - remaining uncertainty
+
+## Preferred output style
+Use short terminal-friendly bullets.
+Prefer direct actions over theory.
